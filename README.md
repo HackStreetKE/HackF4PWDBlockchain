@@ -1,4 +1,4 @@
-# Hack4PWD-blockchain-
+up# Hack4PWD-blockchain-
 Blockchain solution for the #Hack4Series #Hack4PWD 
 
 
@@ -33,7 +33,7 @@ Blockchain's transparent and decentralized nature makes it ideal for managing cr
 Unfortunately, attempts to use the Azure Blockchain service (Consensys Quorum) encountered errors, likely due to the limited services available with the Azure Student subscription. As a result, we have chosen to implement the smart contracts on Solana.
 
 #### Azure Blockchain Milestone
-Successfully completed the Introduction to Blockchain by Azure course in Microsoft Learn where I got to understand the Blockchain services offered and how I can apply my Blockchain skills within the Azure services.
+Successfully completed the Introduction to Blockchain on Azure course in Microsoft Learn where I got to understand the Blockchain services offered and how I can apply my Blockchain skills within the Azure services.
 https://learn.microsoft.com/api/achievements/share/en-us/DennisKaruri-0469/YQQPJJSR?sharingId=731DA067057B8A42
 
 
