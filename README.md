@@ -34,6 +34,7 @@ Unfortunately, attempts to use the Azure Blockchain service (Consensys Quorum) e
 
 #### Azure Blockchain Milestone
 Successfully completed the Introduction to Blockchain by Azure course in Microsoft Learn where I got to understand the Blockchain services offered and how I can apply my Blockchain skills within the Azure services.
+https://learn.microsoft.com/api/achievements/share/en-us/DennisKaruri-0469/YQQPJJSR?sharingId=731DA067057B8A42
 
 
 ## Smart Contract
