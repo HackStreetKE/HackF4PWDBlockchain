@@ -1,90 +1,33 @@
-# Hack4PWD-blockchain-
-Blockchain solution for the #Hack4Series #Hack4PWD 
+# Crowd-Funding-Using-Solidity
+
+The above code is for a Solidity smart contract for a Crowdfunding, where contributors can contribute money, create proposals and vote for proposals. The contract has functions to contribute, get the contract balance, get a refund, create proposals, vote for proposals, and make payments (only accessible by the manager).
+
+## Getting Started
+
+To use this smart contract, you will need a platform that supports smart contract deployment and execution, such as Ethereum. You will also need a tool such as Remix or Truffle to deploy and test the contract.
+
+## Features
+- Secure and transparent fundraising: All transactions and donations are recorded on the Ethereum blockchain, ensuring that the funds are secure and transparent.
+- Refund mechanism: In case the campaign does not reach its funding goal, the smart contract will automatically return the donated funds to their respective contributors.
+- Efficient and cost-effective: The smart contract eliminates the need for intermediaries, reducing transaction fees and speeding up the fundraising process.
+
+## Contract Methods
+### `contribute`
+This method allows all the participants to contribute to the Fund.
+### `contractBalance`
+This method fetche's the balance of the contract.
+### `reFund`
+This method is used to get the refund if the contract has not reached the target before the deadline.
+### `createProposal`
+This will be used by the manager to create proposals for investing/donating the Fund.
+### `voteForProposal`
+This will give the power to the user to vote for any proposal and proposals who win more than 50% vote can only be executed.
+### `makePayment`
+This will give the payment to the recpient for the proposal.
 
 
 
-# Blockchain Solution for Hack4Series Hack4PWD Hackathon
-
-## Overview
-
-This project aims to provide a comprehensive solution to address the education, health cover, and upskilling needs of persons with disabilities (PWDs) through creative research and development (R&D). By leveraging Blockchain technology, we ensure the credibility of institutions focused on PWDs, the authenticity of educators upskilling PWDs, and the transparent allocation of funds towards innovative R&D solutions.
-
-## Why Blockchain?
-
-### Credibility of Institutions and Educators
-
-Blockchain offers an immutable record-keeping system, ensuring that the credentials of institutions and educators involved in the upskilling of PWDs are verifiable and tamper-proof. This instills trust and accountability within the ecosystem.
-
-### Facilitating Funds for Creative R&D
-
-Blockchain's transparent and decentralized nature makes it ideal for managing crowdfunding campaigns and financial transactions. By using smart contracts, we can automate the disbursement of funds based on predefined conditions, ensuring that funds are utilized effectively for the intended purposes.
 
 
-## Solution Architecture
-
-### Components
-
-1. **Smart Contracts**: Written in Solana, these contracts facilitate crowdfunding and execute transactions based on specific conditions.
-2. **Immutable Ledger**: Records the credentials of institutions and educators, and tracks the allocation of funds.
-3. **User Interface**: Allows stakeholders to interact with the system, verify credentials, and participate in crowdfunding campaigns.
-
-### Implementation
-
-Unfortunately, attempts to use the Azure Blockchain service (Consensys Quorum) encountered errors, likely due to the limited services available with the Azure Student subscription. As a result, we have chosen to implement the smart contracts on Solana.
-
-#### Azure Blockchain Milestone
-Successfully completed the Introduction to Blockchain on Azure course in Microsoft Learn where I got to understand the Blockchain services offered and how I can apply my Blockchain skills within the Azure services.
-https://learn.microsoft.com/api/achievements/share/en-us/DennisKaruri-0469/YQQPJJSR?sharingId=731DA067057B8A42
 
 
-## Smart Contract
-
-The smart contract is designed to:
-
-- Facilitate crowdfunding by allowing stakeholders to contribute funds.
-- Automatically execute transactions based on conditions such as milestones achieved or R&D outcomes.
-
-## Setting Up the Development Environment
-
-To build on Ethereum, follow these steps:
-
-### Prerequisites
-
-1. **Node.js and npm**: Ensure you have Node.js and npm installed.
-2. **Truffle**: Install Truffle, a development environment, testing framework, and asset pipeline for Ethereum.
-3. **Ganache**: Install Ganache, a personal blockchain for Ethereum development.
-4. **MetaMask**: Set up MetaMask, a browser extension for Ethereum wallet management.
-5. **Solidity**: The smart contract programming language.
-
-### Installation
-
-1. **Node.js and npm**: Download and install from [Node.js official website](https://nodejs.org/).
-2. **Truffle**: Install via npm:
-   ```bash
-   npm install -g truffle
-   ```
-3. **Ganache**: Download and install from [Ganache official website](https://www.trufflesuite.com/ganache).
-4. **MetaMask**: Add the MetaMask extension from [MetaMask official website](https://metamask.io/).
-
-### Setting Up
-
-1. **Create a New Truffle Project**:
-   ```bash
-   truffle init
-   ```
-2. **Compile and Migrate Smart Contracts**:
-   ```bash
-   truffle compile
-   truffle migrate
-   ```
-3. **Connect MetaMask to Ganache**:
-   - Open Ganache and start a new workspace.
-   - In MetaMask, add a new network with the RPC URL pointing to Ganache (typically `http://127.0.0.1:7545`).
-
-### Developing Smart Contracts
-
-Write your smart contracts in the `contracts/` directory and use Truffle to compile and deploy them.
-
----
-
-This README outlines the project's objectives, the role of Blockchain technology in addressing challenges faced by PWDs and provides a guide for setting up the development environment on Ethereum.
